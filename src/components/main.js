@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 export default function Main(){
     return(
         <>
-        <h1>Sartre's List</h1>
+        <header>Sartre's List</header>
         <h2 className="subHeader">Better-Dressed People</h2>
         <ul>
         <Link to="/women">
@@ -73,7 +73,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vel voluptatum si
             </Link>
             </ul>
     
-    <h3>&copy; 2013 Valet Industries, Inc</h3>
+    <footer>&copy; 2013 Valet Industries, Inc</footer>
     </>
     )
 }

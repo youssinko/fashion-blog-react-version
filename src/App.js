@@ -1,7 +1,5 @@
 
 import Main from './components/main';
-import Nav from './components/Nav';
-import { Route , Routes } from 'react-router-dom';
 import './App.css';
 
 
