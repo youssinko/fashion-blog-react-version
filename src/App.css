@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+*{
+  font-weight: lighter;
+  margin-right: 30px;
+}
+h1{
+  color: red;
+  font-size: 80px;
+  margin-bottom: 20px;
+  
+}
+.subHeader{
+font-size: 30px;
+}
+h2{
+  font-size: 50px;
+  
+}
+h3{
+  font-size: 30px;
+  color: grey;
+}
+ul{
+  font-size: 20px;
+  display: flex;
+  justify-content:space-between
+
+}
+a{
+  color: grey;
+}
+p{
+  font-size: 25px;
+ color: gray;
+}
+p::first-letter{
+ font-size: 10rem;
+ float: left;
+ line-height: 0.7;
+ font-family:Georgia;
+ 
+}
+img{
+  width: 94vw;
+}
+.continue{
+  color: red;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration-line: none;
+}
+.end{
+  color: red;
+  text-decoration-line: none;
 }
